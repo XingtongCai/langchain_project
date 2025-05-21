@@ -1,6 +1,7 @@
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
-mcp = FastMCP("Math")
+# 这里命名可以用mcp,server,app三种，FastMCP('自定义的mcp名字')
+mcp = FastMCP("Math") 
 
 @mcp.tool()
 def add(a:int,b:int)-> int:

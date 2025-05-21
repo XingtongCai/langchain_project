@@ -88,7 +88,7 @@ async def run_mcp_client():
                 },
                 "weather": {
                     # 确保在端口8000上启动weather服务器
-                    "url": "http://localhost:8000/mcp",
+                    "url": "http://127.0.0.1:8000/weather-mcp",
                     "transport": "streamable_http",
                 },
             }
